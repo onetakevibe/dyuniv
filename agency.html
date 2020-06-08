@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>기관소개</title>
+<meta charset="utf-8">
+<style type="text/css">
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	li {
+		list-style-type: none;
+	}
+	.clear {
+		clear: both;
+	}
+	#page {
+		width: 1300px;
+		margin: auto;/*수평 가운데자동정렬*/
+		border :0px solid #bbbbbb;
+	}
+	header {
+		width :1300px;
+		height: 100px;
+		margin-top: 10px;
+		border :0px solid #bbbbbb; 
+	}
+	#logo {
+		float:left;
+		margin-top:10px;
+	}
+	#logo img{
+		width: 60%;
+		height: 60%;
+	}
+	#top {
+		float:right;
+		margin: 30px 20px 0 0;
+	}
+	#mypage{
+		text-decoration: none;
+		color: red;
+		}
+	#nav1 {
+		width: 1300px;
+		height: 70px;
+		margin-top: 10px;
+		margin-bottom: 20px; 
+		border : 0px solid #bbbbbb; 
+	}
+	nav a:hover {
+			background-color: #21a089;
+			border-top:0;
+		}
+	#nav1 ul {
+		text-align: center;
+	}
+	#nav1 li {
+		display: inline-block;
+		margin: 10px 30px;
+		}
+	#nav_i {
+		margin:0;
+		display: inline-block;
+	}
+	#submenu {
+		position: absolute;
+		overflow: hidden;
+		visibility: hidden;
+		opacity: 0;
+			}
+	#nav_i:hover #submenu {
+		visibility: visible;
+		opacity: 1;
+		z-index: 1;
+	}
+	#nav_i>a:hover
+	{
+		border-bottom: 3px solid #21a089;
+		text-decoration: none;
+		color:white;
+	}
+
+	#nav_i>a {
+		text-decoration: none;
+		color:black;
+	}
+	#submenu ul{
+		display: inline-block;
+		position: relative;
+	}
+	#submenu li {
+		display: inline-block;
+		line-height: 0px;
+		margin: 0;
+		float: left;
+
+	}
+	#submenu img {
+		display: inline-block;
+		width :70%; height: 70%;
+		border : 2px solid  #21a089;
+	}
+	#nav2{
+		width: 200px; 
+		height: 800px; 
+		border :0px solid #bbbbbb;
+		float:left;
+		margin:0 20px 0 10px;
+	}
+	#nav2 ul{
+		text-align: left;
+	}
+	#nav2 li{
+		display: block;
+		line-height: 0px;
+		margin: 0;
+	}
+	#nav2 img{
+		width: 200px; height: 80%;
+		border: 2px solid  #21a089;
+	}
+	#nav2_h img{
+		width: 50%;
+		margin-left: 5px;
+		border :0;
+	}
+
+	section{
+		width: 800px;
+		border :0px solid #bbbbbb;
+		display: inline;
+		margin-left:;
+	}
+	section h1{
+		display: inline;
+		font-size: 30px;
+	}
+	section hr{
+		border-bottom: 2px solid black;
+		width:800px;
+	}
+	aside{
+		float:right;
+		border:0px solid #bbbbbb; 
+		position: relative;
+		top:-43px;
+	}
+	aside li{
+		text-align: right;
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+	aside img {
+		border-radius: 50% 50%;
+		width:70%; height: 70%;
+	}
+	footer{
+		width:1300px;
+		height: 100px;
+		margin: 10px 0 10px 0;
+		border:0px solid #bbbbbb;
+	}
+	#address{
+		float: left;
+		margin:10px 0 0 10px;
+	}
+	#address img{
+		width: 600px;
+		height: 70px;
+	}
+	#customer{
+		float: right;
+		margin: 10px 0 0 10px;
+		}
+	#customer img{
+		width: 400px;
+		height:70px;
+		}
+		#hover:hover {
+			border:5px solid #21a089;
+			margin: -3px;
+		}
+	</style>
+</head>
+<body id="page">
+<header>
+	<div id="logo"><a href="index.html"><img src="./img/logo.png"></a></div>
+	<div id="top"> 로그인 | 회원가입 | <a href="mypage.html" id="mypage" target="_blank">마이페이지</a> | 고객센터</div>
+</header>
+<div class="clear"></div>
+<nav id="nav1">
+	<ul>
+		<li>감염병</li>
+		<li>건강정보</li>
+		<li>정책정보</li>
+		<li>연구개발</li>
+		<li>알림. 자료</li>
+		<li>간행물. 통계</li>
+		<li>민원. 정보공개</li>
+		<li id="nav_i"><a href="agency.html">기관소개</a>
+			<ul id="submenu">
+				<li><a href="agency.html"><img src="./img/b1.jpg"  id="hover"></a></li>
+				<li style="padding-right: 6px;"><img src="./img/b2.jpg" style="padding-right: 3px;"></li>
+				<li><img src="./img/b3.jpg" style="padding-right: 3px; position:relative; left:3px;"></li>
+				<li><img src="./img/b4.jpg"></li>
+				<li><img src="./img/b5.jpg"></li>
+				<li><img src="./img/b6.jpg"></li>
+				<li><img src="./img/b7.jpg"></li>
+				<li><img src="./img/b8.jpg"></li>
+				<li><img src="./img/b9.jpg"></li>
+			</ul>
+		
+				</li>
+		<li>사업별 홈페이지</li>
+	</ul>
+</nav>
+<div class="clear"></div>
+<nav id="nav2">
+	<ul>
+		<li id="nav2_h"><img src="./img/x1.jpg"></li>
+		<li><a href="agency.html" ><img src="./img/x2.jpg" id="hover"></a></li>
+		<li><img src="./img/x3.jpg"></li>
+		<li><img src="./img/x4.jpg"></li>
+		<li><img src="./img/x5.jpg"></li>
+		<li><img src="./img/x6.jpg"></li>
+		<li><img src="./img/x7.jpg"></li>
+		<li><img src="./img/x8.jpg"></li>
+		<li><img src="./img/x9.jpg"></li>
+		<li><img src="./img/x10.jpg"></li>
+	</ul>
+</nav>
+<section>
+	<h1>인사말</h1>
+	<hr>
+	<img src="./img/section.png" width="65%">
+</section>
+<aside>
+	<ul>
+	<li><img src="./img/menu1.jpg">  </li>
+	<li><img src="./img/menu2.jpg"> </li>
+	<li><img src="./img/menu3.jpg"> </li>
+	<li><img src="./img/menu4.jpg">  </li>
+</ul>
+</aside>
+<footer>
+	<div id="address"><img src="./img/address.jpg"></div>
+	<div id="customer"><img src="./img/customer.jpg"></div>
+</footer>
+</body>
+</html>
